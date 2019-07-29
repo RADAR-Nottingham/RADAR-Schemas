@@ -61,3 +61,15 @@ data:
     doc: Timezone information sent along with each questionnaire.
     topic: questionnaire_timezone
     value_schema: .monitor.application.ApplicationTimeZone
+   - type: eudaimonia
+    topic: questionnaire_eudaimonia
+    value_schema: .active.questionnaire.Questionnaire
+    questionnaire_definition_url: https://raw.githubusercontent.com/RADAR-Nottingham/RADAR-REDCap-aRMT-Definitions/master/questionnaires/eudaimonia/eudaimonia_armt.json
+    - type: socialgroup
+    topic: questionnaire_socialgroup
+    value_schema: .active.questionnaire.Questionnaire
+    questionnaire_definition_url: https://raw.githubusercontent.com/RADAR-Nottingham/RADAR-REDCap-aRMT-Definitions/master/questionnaires/socialgroup/socialgroup_armt.json
+    - type: socialgroup
+    topic: questionnaire_socialid
+    value_schema: .active.questionnaire.Questionnaire
+    questionnaire_definition_url: https://raw.githubusercontent.com/RADAR-Nottingham/RADAR-REDCap-aRMT-Definitions/master/questionnaires/socialid/socialid_armt.json
